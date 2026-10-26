@@ -1,6 +1,12 @@
 # Mirror von ATTinyCore 1.5.2
 
-Dieser Ordner wird als eigenes GitHub-Repository mit GitHub Pages veröffentlicht. Er stellt das Board-Paket ATTinyCore 1.5.2 für die Arduino IDE bereit, unabhängig von `drazzy.com` und `azduino.com`.
+Dieser Ordner ist als Repository [gymnerdfeld/attinycore-mirror](https://github.com/gymnerdfeld/attinycore-mirror) mit GitHub Pages veröffentlicht. Die Adresse für die Arduino IDE lautet:
+
+```
+https://gymnerdfeld.github.io/attinycore-mirror/package_attinycore-mirror_index.json
+```
+
+Er stellt das Board-Paket ATTinyCore 1.5.2 für die Arduino IDE bereit, unabhängig von `drazzy.com` und `azduino.com`.
 
 ## Inhalt
 
@@ -39,7 +45,7 @@ arduino-cli core update-index
 arduino-cli core install ATTinyCore:avr
 ```
 
-Im Oktober 2026 wurde so eine Installation über einen lokalen Webserver getestet.
+Im Oktober 2026 wurde so eine Installation über GitHub Pages getestet.
 
 ## Lizenzen
 
